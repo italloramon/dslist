@@ -221,12 +221,12 @@ Request Body:
 Exemplo de respota:
 No endpoint anterior retornarmos os games da lista 2, veja que eles já vem em ordem crescente, sendo que a primeira posição começa do 0. Sendo assim, temos:
 
-Posição - Título do jogo
-0 - Super Mario World
-1 - Hollow Knight
-2 - Ori and the Blind Forest
-3 - Cuphead
-4 - Sonic CD
+- Posição - Título do jogo
+- 0 - Super Mario World
+- 1 - Hollow Knight
+- 2 - Ori and the Blind Forest
+- 3 - Cuphead
+- 4 - Sonic CD
 
 Se fizermos a request como descrevemos no exemplo, então o jogo da posição 3 deverá ocupar a posição 1, dentro da lista 2. Se feita a requisição for recebido um `Status: 200 OK`, ao consultar novamente a lista 2, deveremos obter o seguinte resultado
 
